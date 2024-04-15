@@ -11,13 +11,10 @@ void saludar();
 
 class Perro:public Animal{
 public:
-Perro(string esp);
-
-void saludar();
+Perro();
 };
 class Gato:public Animal{
 public:
-Gato(string esp);
-void saludar();
+Gato();
 };
 //Perro y Gato heredan de animal y tienen las mismas propiedades

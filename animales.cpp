@@ -3,21 +3,13 @@
 #include <iostream>
 using namespace std;
 
-void Animal::saludar(){
-cout << "Hola, soy un" << endl;
-}
-void Perro::saludar(){
-cout << "Hola, soy un perro" << endl;
-}
-void Gato::saludar(){
-cout << "Hola, soy un gato" << endl;
-}
 Animal::Animal(string esp){
-    especie=esp;
+    this->especie=esp;
 }
-Perro::Perro(string esp){
-especie=esp;
+void Animal::saludar(){
+cout << "Hola,como te va?" << endl;
 }
-Gato::Gato(string esp){
-especie=esp;
-}
+Perro::Perro():Animal("Perro"){}
+Gato::Gato():Animal("Gato"){}
+
+

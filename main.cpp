@@ -1,7 +1,14 @@
-//Crea 1 objeto de cada clase y saluda con cada uno.
 #include "animales.h"
+#include "clases.h"
 
-Perro guao("firulais");
+int main(){
+Animal animal("Oso");
+Perro guao;
+Gato miau;
+
+animal.saludar();
 guao.saludar();
-Gato miau("Persa");
+miau.saludar();
+    return 0;
+}
 
