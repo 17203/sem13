@@ -12,4 +12,11 @@ cout << "Hola,como te va?" << endl;
 Perro::Perro():Animal("Perro"){}
 Gato::Gato():Animal("Gato"){}
 
+void Perro::saludar(){
+    cout << "guao" << endl;
+}
+void Gato::saludar(){
+    cout << "miau" << endl;
+}
+
 
